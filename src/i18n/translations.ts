@@ -1,0 +1,276 @@
+export const translations = {
+  en: {
+    nav: {
+      topQuote: "“Self-reliance is the true foundation of community empowerment.”",
+      topTaxNote: "12AA & 80G Tax Exemption Eligible",
+      home: "Home",
+      about: "About Us",
+      ourWork: "Our Work",
+      whereWeWork: "Where We Work",
+      getInvolved: "Get Involved",
+      contact: "Contact",
+      donateNow: "Donate Now",
+    },
+    hero: {
+      badge: "12AA & 80G(5) Tax Exempted NGO • Reg. 58/2012",
+      title: "Empowering Rural Communities Across Rajasthan",
+      subtitle: "Dedicated to socio-economic growth, skill development, WASH, and sustainable livelihoods for women, children, and farmers since 2012.",
+      donateBtn: "Support Our Mission",
+      csrBtn: "Explore Our Programmes",
+      imageCaption: "Traditional Charkha Spinning Initiative — Bikaner & Hanumangarh",
+      impactMetric: "500+ Rural Artisans Empowered",
+      pillarsTitle: "Our Core Focus Areas",
+      pillars: {
+        skills: "Skill Development",
+        wash: "WASH & Hygiene",
+        nutrition: "Nutrition & Health",
+        livelihood: "Sustainable Livelihood",
+      },
+      impactCards: {
+        donors: {
+          title: "Happy Donors",
+          value: "1,500+"
+        },
+        volunteers: {
+          title: "Active Volunteers",
+          value: "300+"
+        },
+        villages: {
+          title: "Villages Reached",
+          value: "120+"
+        }
+      },
+      counterCards: [
+        {
+          tagline: "I'm a Young Changemaker",
+          number: "150",
+          suffix: "k+",
+          label: "VOLUNTEERS ENGAGED",
+          btnText: "CLICK HERE",
+          href: "/get-involved",
+        },
+        {
+          tagline: "I'm an Individual Donor",
+          number: "95",
+          suffix: "k+",
+          label: "BENEFICIARIES REACHED EVERY YEAR",
+          btnText: "CLICK HERE",
+          href: "#donate",
+        },
+        {
+          tagline: "I'm a Corporate Partner",
+          number: "14",
+          suffix: "+",
+          label: "YEARS OF IMPACT",
+          btnText: "CLICK HERE",
+          href: "/our-work",
+        },
+      ],
+    },
+    about: {
+      badge: "About Jeevan Dhara Sansthan",
+      title: "Uplifting Rural Communities Across Rajasthan Since 2012",
+      p1: "Established in 2012, Jeevan Dhara Sansthan is a grassroots non-profit organization dedicated to uplifting rural communities across Rajasthan. We act as a catalyst for socio-economic change by implementing high-impact programs in women's empowerment, digital literacy, sustainable livelihoods, and the revival of traditional handlooms.",
+      p2: "Through community-driven action, we bridge the gap between marginalized individuals and equitable opportunities, fostering long-term self-reliance and environmental sustainability at the grassroots level.",
+      tags: {
+        women: "👩‍🌾 Women Empowerment",
+        digital: "💻 Digital Literacy",
+        livelihood: "🌾 Sustainable Livelihood",
+        handloom: "🧵 Handloom Revival",
+      },
+      metrics: {
+        m1Val: "500+",
+        m1Title: "Women Artisans Empowered",
+        m1Sub: "Charkha spinning & tailoring training",
+        m2Val: "7+",
+        m2Title: "Districts Reached",
+        m2Sub: "Across Northern & Western Rajasthan",
+        m3Val: "1,000+",
+        m3Title: "Digitally Literate",
+        m3Sub: "Digital banking & e-governance awareness",
+        m4Val: "100%",
+        m4Title: "Tax Exempted (80G)",
+        m4Sub: "Under Section 12AA & 80G(5)",
+      },
+      leadersTitle: "The Faces Behind the NGO",
+      leadersSubtitle: "Meet the passionate visionaries driving sustainable community transformation in rural Rajasthan.",
+      leaders: [
+        {
+          name: "Shri Rameshwar Lal",
+          role: "Founder & President",
+          bio: "Visionary leader with over 15+ years of dedicated service empowering rural families, championing digital literacy, and fostering self-reliance across Bikaner district.",
+          tag: "Founder",
+        },
+        {
+          name: "Smt. Sunita Devi",
+          role: "Program Director — Women Empowerment",
+          bio: "Pioneer behind the Charkha spinning initiatives and tailoring workshops that have trained over 500+ rural women to achieve financial independence.",
+          tag: "Community Leader",
+        },
+        {
+          name: "Dr. Vikram Singh",
+          role: "Head of Rural Health & WASH Initiatives",
+          bio: "Passionate public health strategist leading clean water, sanitation awareness, and preventive health drives across 120+ villages.",
+          tag: "Health Specialist",
+        },
+      ],
+    },
+    trust: {
+      est: "Est. 2012",
+      districts: "7 Districts Reached",
+      branches: "2 Branches",
+      taxExempt: "80G Tax-Exempt NGO",
+    },
+    impact: {
+      womenTrained: "Women Skilled",
+      consumerEducated: "Consumer Rights Awareness",
+      digitalLiterate: "Digitally Literate",
+      biogasPlants: "Biogas Energy Plants",
+    },
+    footer: {
+      tagline: "Dedicated to rural development, women's empowerment, and sustainable livelihoods since 2012.",
+      quickLinks: "Quick Links",
+      legal: "Legal & Tax Details",
+      pan: "PAN: Available on request",
+      address: "Headquartered in Kolasar, Bikaner, Rajasthan, India",
+      copyright: "© 2026 Jeevan Dhara Sansthan. All rights reserved.",
+    },
+  },
+  hi: {
+    nav: {
+      topQuote: "“स्वावलंबन ही समाज और ग्रामीण विकास की सच्ची शक्ति है।”",
+      topTaxNote: "12AA एवं 80G कर छूट हेतु मान्य",
+      home: "मुख्य पृष्ठ",
+      about: "हमारे बारे में",
+      ourWork: "हमारे कार्य",
+      whereWeWork: "हम कहाँ काम करते हैं",
+      getInvolved: "शामिल हों",
+      contact: "संपर्क करें",
+      donateNow: "दान करें",
+    },
+    hero: {
+      badge: "12AA एवं 80G(5) कर-मुक्त संस्था • पंजी. 58/2012",
+      title: "ग्रामीण राजस्थान के समुदायों को सशक्त बनाना",
+      subtitle: "2012 से महिलाओं, बच्चों और किसानों के लिए सामाजिक-आर्थिक विकास, कौशल प्रशिक्षण, स्वच्छता और स्थायी आजीविका हेतु समर्पित।",
+      donateBtn: "हमारे मिशन का समर्थन करें",
+      csrBtn: "हमारे कार्यक्रम देखें",
+      imageCaption: "पारंपरिक चरखा कताई पहल — बीकानेर एवं हनुमानगढ़",
+      impactMetric: "500+ ग्रामीण महिलाएं सशक्त",
+      pillarsTitle: "हमारे मुख्य कार्य क्षेत्र",
+      pillars: {
+        skills: "कौशल विकास",
+        wash: "जल एवं स्वच्छता (WASH)",
+        nutrition: "पोषण एवं स्वास्थ्य",
+        livelihood: "सतत आजीविका",
+      },
+      impactCards: {
+        donors: {
+          title: "प्रसन्न दानदाता",
+          value: "1,500+"
+        },
+        volunteers: {
+          title: "सक्रिय स्वयंसेवक",
+          value: "300+"
+        },
+        villages: {
+          title: "पहुँच (गाँव)",
+          value: "120+"
+        }
+      },
+      counterCards: [
+        {
+          tagline: "मैं एक युवा बदलावकर्ता हूँ",
+          number: "150",
+          suffix: "k+",
+          label: "सक्रिय स्वयंसेवक जुड़ाव",
+          btnText: "यहाँ क्लिक करें",
+          href: "/get-involved",
+        },
+        {
+          tagline: "मैं एक व्यक्तिगत दानदाता हूँ",
+          number: "95",
+          suffix: "k+",
+          label: "प्रतिवर्ष लाभान्वित नागरिक",
+          btnText: "यहाँ क्लिक करें",
+          href: "#donate",
+        },
+        {
+          tagline: "मैं एक कॉर्पोरेट भागीदार हूँ",
+          number: "14",
+          suffix: "+",
+          label: "प्रभावशाली सेवा के वर्ष",
+          btnText: "यहाँ क्लिक करें",
+          href: "/our-work",
+        },
+      ],
+    },
+    about: {
+      badge: "संस्थान परिचय",
+      title: "ग्रामीण राजस्थान के विकास और स्वावलंबन के लिए 2012 से समर्पित",
+      p1: "2012 में स्थापित, जीवन धारा संस्थान राजस्थान के ग्रामीण क्षेत्रों में जमीनी स्तर पर कार्य करने वाला एक गैर-लाभकारी संगठन है। हम महिला सशक्तिकरण, डिजिटल साक्षरता, सतत आजीविका और पारंपरिक हथकरघा के पुनरुद्धार में उच्च-प्रभाव वाले कार्यक्रमों के माध्यम से सामाजिक-आर्थिक बदलाव के उत्प्रेरक के रूप में कार्य करते हैं।",
+      p2: "सामुदायिक गतिविधियों के माध्यम से, हम वंचित वर्गों और न्यायसंगत अवसरों के बीच की दूरी को मिटाते हैं, जिससे ग्रामीण क्षेत्रों में दीर्घकालिक स्वावलंबन और पर्यावरणीय स्थिरता को बढ़ावा मिलता है।",
+      tags: {
+        women: "👩‍🌾 महिला सशक्तिकरण",
+        digital: "💻 डिजिटल साक्षरता",
+        livelihood: "🌾 सतत आजीविका",
+        handloom: "🧵 पारंपरिक हथकरघा",
+      },
+      metrics: {
+        m1Val: "500+",
+        m1Title: "महिलाएं स्वरोजगारयुक्त",
+        m1Sub: "बीकानेर एवं हनुमानगढ़ में चरखा व सिलाई प्रशिक्षण",
+        m2Val: "7+",
+        m2Title: "जिले आच्छादित",
+        m2Sub: "उत्तरी एवं पश्चिमी राजस्थान में सक्रिय",
+        m3Val: "1,000+",
+        m3Title: "डिजिटल साक्षर नागरिक",
+        m3Sub: "ई-श्रम व डिजिटल बैंकिंग जागरूकता",
+        m4Val: "100%",
+        m4Title: "कर मुक्त अनुदान (80G)",
+        m4Sub: "12AA व 80G(5) सरकारी पंजीकरण",
+      },
+      leadersTitle: "संस्थान के कर्णधार (मार्गदर्शक)",
+      leadersSubtitle: "ग्रामीण राजस्थान में सतत सामुदायिक बदलाव को साकार करने वाले समर्पित नेतृत्व से मिलें।",
+      leaders: [
+        {
+          name: "श्री रामेश्वर लाल",
+          role: "संस्थापक एवं अध्यक्ष",
+          bio: "15+ से अधिक वर्षों के समर्पित अनुभव के साथ बीकानेर क्षेत्र में ग्रामीण परिवारों के सशक्तिकरण, डिजिटल साक्षरता और स्वावलंबन के सूत्रधार।",
+          tag: "संस्थापक",
+        },
+        {
+          name: "श्रीमती सुनिता देवी",
+          role: "कार्यक्रम निदेशक — महिला सशक्तिकरण",
+          bio: "चरखा कताई और सिलाई प्रशिक्षण पहल की प्रमुख, जिन्होंने 500 से अधिक ग्रामीण महिलाओं को आर्थिक रूप से आत्मनिर्भर बनाया है।",
+          tag: "सामुदायिक नेत्री",
+        },
+        {
+          name: "डॉ. विक्रम सिंह",
+          role: "प्रमुख — ग्रामीण स्वास्थ्य एवं WASH पहल",
+          bio: "120+ से अधिक गांवों में स्वच्छ जल, स्वच्छता जागरूकता और जन-स्वास्थ्य अभियानों का नेतृत्व करने वाले समर्पित विशेषज्ञ।",
+          tag: "स्वास्थ्य विशेषज्ञ",
+        },
+      ],
+    },
+    trust: {
+      est: "स्थापना 2012",
+      districts: "7 जिलों तक पहुँच",
+      branches: "2 शाखाएँ",
+      taxExempt: "80G कर-मुक्त NGO",
+    },
+    impact: {
+      womenTrained: "कौशल प्राप्त महिलाएं",
+      consumerEducated: "उपभोक्ता अधिकार जागरूकता",
+      digitalLiterate: "डिजिटल साक्षर महिलाएं",
+      biogasPlants: "बायोगैस ऊर्जा संयंत्र",
+    },
+    footer: {
+      tagline: "2012 से ग्रामीण विकास, महिला सशक्तिकरण और स्थायी आजीविका के लिए समर्पित।",
+      quickLinks: "त्वरित लिंक",
+      legal: "कानूनी एवं कर विवरण",
+      pan: "पैन: अनुरोध पर उपलब्ध",
+      address: "मुख्यालय: कोलासर, बीकानेर, राजस्थान, भारत",
+      copyright: "© 2026 जीवन धारा संस्थान। सर्वाधिकार सुरक्षित।",
+    },
+  },
+};
