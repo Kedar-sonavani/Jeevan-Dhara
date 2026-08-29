@@ -9,7 +9,10 @@ const envSchema = z.object({
   RESEND_API_KEY: z.string().optional().default("re_placeholder"),
   NGO_ADMIN_EMAIL: z.string().optional().default("admin@jeevandhara.org"),
   SENDER_EMAIL: z.string().optional().default("donations@jeevandhara.org"),
-  NEXT_PUBLIC_SITE_URL: z.string().optional().default("http://localhost:3000"),
+  ADMIN_PIN: z.string().optional(),
+  ADMIN_PASSWORD: z.string().optional(),
+  ADMIN_API_SECRET: z.string().optional(),
+  JWT_SECRET: z.string().optional(),
 });
 
 export const env = envSchema.parse(process.env);

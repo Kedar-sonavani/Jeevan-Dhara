@@ -1,0 +1,12 @@
+/**
+ * Utility to escape user-supplied HTML entities to prevent HTML injection in emails
+ */
+export function escapeHtml(str: string): string {
+  if (!str) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}

@@ -4,8 +4,11 @@ import { useState } from "react";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { HeroImpactCards } from "@/components/HeroImpactCards";
-// import { ImpactStatsSection } from "@/components/ImpactStatsSection";
+import { ImpactStatsSection } from "@/components/ImpactStatsSection";
+import { CampaignsShowcase } from "@/components/CampaignsShowcase";
 import { AboutSection } from "@/components/AboutSection";
+import { StoriesSection } from "@/components/StoriesSection";
+import { DonationCtaBand } from "@/components/DonationCtaBand";
 import { Footer } from "@/components/Footer";
 import { Language } from "@/types";
 
@@ -18,14 +21,26 @@ export default function Home() {
       <Header lang={lang} onLanguageChange={setLang} />
 
       <main className="flex-1">
-        {/* Hero Section */}
+        {/* 1. Hero Section */}
         <HeroSection lang={lang} />
 
-        {/* Impact Highlights Bar */}
+        {/* 2. Impact Highlights Floating Glass Bar */}
         <HeroImpactCards lang={lang} />
 
-        {/* About & Mission Section */}
+        {/* 3. Credibility & Trust Bar (Est 2012, 7 Districts, 80G) */}
+        <ImpactStatsSection lang={lang} />
+
+        {/* 4. Active Urgent Campaigns with Live Progress Bars */}
+        <CampaignsShowcase lang={lang} />
+
+        {/* 5. About & Mission Section */}
         <AboutSection lang={lang} />
+
+        {/* 6. Real Stories of Change (Beneficiary Narratives) */}
+        <StoriesSection lang={lang} />
+
+        {/* 7. Full-Width Donation Conversion Band */}
+        <DonationCtaBand lang={lang} />
       </main>
 
       {/* Footer */}

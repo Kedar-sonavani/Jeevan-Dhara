@@ -17,7 +17,7 @@ export const HeroSection: React.FC<HeroProps> = ({ lang }) => {
     <section className="relative overflow-visible pt-16 pb-24 md:pt-24 md:pb-32 border-b border-sage/20 flex flex-col justify-center min-h-screen">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-charkha.jpeg"
+          src="/images/hero.png"
           alt="Women operating traditional Charkha in Bikaner, Rajasthan"
           fill
           className="object-cover object-[center_30%]"

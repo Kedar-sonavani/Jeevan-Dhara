@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { translations } from "@/i18n/translations";
 import { Language } from "@/types";
 
@@ -35,7 +36,7 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
           {/* Quick Donate Link in Top Banner */}
           <div className="flex items-center gap-3">
             <Link
-              href="#donate"
+              href="/donate"
               className="bg-amber hover:bg-amber-400 text-dark font-bold px-3 py-1 rounded-md text-xs shadow-xs transition active:scale-95 flex items-center gap-1.5"
             >
               <span>{t.donateNow}</span>
@@ -54,8 +55,15 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
 
           {/* Logo & NGO Title */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-terracotta flex items-center justify-center text-white font-serif text-xl font-bold shadow-md group-hover:scale-105 transition-transform">
-              JD
+            <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-terracotta/20 shadow-md group-hover:scale-105 transition-transform bg-white shrink-0">
+              <Image
+                src="/images/Logo.jpeg"
+                alt="Jeevan Dhara Sansthan Logo"
+                fill
+                sizes="48px"
+                className="object-cover"
+                priority
+              />
             </div>
             <div>
               <span className="font-serif font-bold text-xl text-terracotta tracking-tight block leading-none">
@@ -74,6 +82,8 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
             <Link href="/our-work" className="hover:text-terracotta transition-colors">{t.ourWork}</Link>
             <Link href="/where-we-work" className="hover:text-terracotta transition-colors">{t.whereWeWork}</Link>
             <Link href="/get-involved" className="hover:text-terracotta transition-colors">{t.getInvolved}</Link>
+            <Link href="/csr" className="hover:text-terracotta transition-colors">CSR</Link>
+            <Link href="/transparency" className="hover:text-terracotta transition-colors">{t.transparency}</Link>
             <Link href="/contact" className="hover:text-terracotta transition-colors">{t.contact}</Link>
           </nav>
 
@@ -82,6 +92,8 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
             {/* Language Switcher Pill */}
             <div className="flex items-center bg-sage-100 p-1 rounded-lg border border-sage-300/60 text-xs font-bold">
               <button
+                type="button"
+                suppressHydrationWarning
                 onClick={() => onLanguageChange("en")}
                 className={`px-3 py-1.5 rounded-md transition-all ${lang === "en"
                     ? "bg-terracotta text-white shadow-xs"
@@ -91,6 +103,8 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
                 English
               </button>
               <button
+                type="button"
+                suppressHydrationWarning
                 onClick={() => onLanguageChange("hi")}
                 className={`px-3 py-1.5 rounded-md transition-all ${lang === "hi"
                     ? "bg-terracotta text-white shadow-xs"
@@ -102,7 +116,7 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
             </div>
 
             <Link
-              href="#donate"
+              href="/donate"
               className="px-5 py-2.5 bg-amber text-dark font-semibold text-sm rounded-xl shadow-xs hover:bg-amber-600 transition"
             >
               {t.donateNow}
@@ -114,6 +128,8 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
             {/* Language Switcher Pill for Mobile */}
             <div className="flex items-center bg-sage-100 p-0.5 rounded-lg border border-sage-300/60 text-[11px] font-bold">
               <button
+                type="button"
+                suppressHydrationWarning
                 onClick={() => onLanguageChange("en")}
                 className={`px-2 py-1 rounded ${lang === "en" ? "bg-terracotta text-white" : "text-dark/70"
                   }`}
@@ -121,6 +137,8 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
                 EN
               </button>
               <button
+                type="button"
+                suppressHydrationWarning
                 onClick={() => onLanguageChange("hi")}
                 className={`px-2 py-1 rounded ${lang === "hi" ? "bg-terracotta text-white" : "text-dark/70"
                   }`}
@@ -154,9 +172,11 @@ export const Header: React.FC<HeaderProps> = ({ lang, onLanguageChange }) => {
             <Link href="/our-work" className="block px-3 py-2 text-base font-medium text-dark hover:bg-sage-100 rounded-lg">{t.ourWork}</Link>
             <Link href="/where-we-work" className="block px-3 py-2 text-base font-medium text-dark hover:bg-sage-100 rounded-lg">{t.whereWeWork}</Link>
             <Link href="/get-involved" className="block px-3 py-2 text-base font-medium text-dark hover:bg-sage-100 rounded-lg">{t.getInvolved}</Link>
+            <Link href="/csr" className="block px-3 py-2 text-base font-medium text-dark hover:bg-sage-100 rounded-lg">CSR Partnerships</Link>
+            <Link href="/transparency" className="block px-3 py-2 text-base font-medium text-dark hover:bg-sage-100 rounded-lg">{t.transparency}</Link>
             <Link href="/contact" className="block px-3 py-2 text-base font-medium text-dark hover:bg-sage-100 rounded-lg">{t.contact}</Link>
             <div className="pt-2">
-              <Link href="#donate" className="block w-full text-center py-3 bg-amber text-dark font-bold rounded-xl shadow-sm">
+              <Link href="/donate" className="block w-full text-center py-3 bg-amber text-dark font-bold rounded-xl shadow-sm">
                 {t.donateNow}
               </Link>
             </div>

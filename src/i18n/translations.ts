@@ -8,6 +8,7 @@ export const translations = {
       ourWork: "Our Work",
       whereWeWork: "Where We Work",
       getInvolved: "Get Involved",
+      transparency: "Transparency",
       contact: "Contact",
       donateNow: "Donate Now",
     },
@@ -29,16 +30,16 @@ export const translations = {
       impactCards: {
         donors: {
           title: "Happy Donors",
-          value: "1,500+"
+          value: "1,500+",
         },
         volunteers: {
           title: "Active Volunteers",
-          value: "300+"
+          value: "300+",
         },
         villages: {
           title: "Villages Reached",
-          value: "120+"
-        }
+          value: "120+",
+        },
       },
       counterCards: [
         {
@@ -55,7 +56,7 @@ export const translations = {
           suffix: "k+",
           label: "BENEFICIARIES REACHED EVERY YEAR",
           btnText: "CLICK HERE",
-          href: "#donate",
+          href: "/donate",
         },
         {
           tagline: "I'm a Corporate Partner",
@@ -78,6 +79,34 @@ export const translations = {
         livelihood: "🌾 Sustainable Livelihood",
         handloom: "🧵 Handloom Revival",
       },
+      storyTitle: "Our Origin & Genesis Story",
+      storyP1: "In August 2012, a small group of passionate social activists led by Mahaveer Upadhyay gathered in Kolasar Mandi, Bikaner, Rajasthan. Witnessing the decay of traditional handloom crafts and the severe economic challenges faced by rural families, they registered Jeevan Dhara Sansthan (Registration No. 58/1-8-2012) with a simple core vision: self-reliance over charity.",
+      storyP2: "Starting with a single traditional Charkha unit in Kolasar, Bikaner, we trained rural women to spin yarn and weave khadi, bridging the gap between historical heritage and sustainable modern livelihoods. Over the years, that humble initiative has expanded into skill development centers, digital literacy courses, WASH sanitation campaigns, and agricultural nutrition support spanning 7 districts of Rajasthan.",
+      timelineTitle: "Our Journey Over the Years",
+      timelineEvents: [
+        {
+          year: "2012",
+          title: "Inception & Handloom Revival",
+          desc: "Founded in Bikaner with a single handloom center, training 20 rural women in traditional Charkha spinning and yarn weaving.",
+        },
+        {
+          year: "2016",
+          title: "WASH & Safe Sanitation Launch",
+          desc: "Expanded into school hygiene education and safe drinking water awareness campaigns, establishing a dedicated Hanumangarh branch.",
+        },
+        {
+          year: "2020",
+          title: "Digital Literacy & E-Governance",
+          desc: "Introduced digital banking, mobile operations, and e-governance program access to rural communities to encourage digital inclusion.",
+        },
+        {
+          year: "2026",
+          title: "7 Districts & 12AA/80G Trust",
+          desc: "Empowering 500+ rural women, reaching 7 districts of Rajasthan, and fully certified with 12AA & 80G tax exemptions.",
+        },
+      ],
+      methodologyTitle: "What Drives Us",
+      methodologyDesc: "Real change begins with people. We work hand-in-hand with rural families to build skills, dignity, and lasting self-reliance.",
       metrics: {
         m1Val: "500+",
         m1Title: "Women Artisans Empowered",
@@ -96,9 +125,9 @@ export const translations = {
       leadersSubtitle: "Meet the passionate visionaries driving sustainable community transformation in rural Rajasthan.",
       leaders: [
         {
-          name: "Shri Rameshwar Lal",
+          name: "Mahaveer Upadhyay",
           role: "Founder & President",
-          bio: "Visionary leader with over 15+ years of dedicated service empowering rural families, championing digital literacy, and fostering self-reliance across Bikaner district.",
+          bio: "Visionary founder with over 15+ years of dedicated service empowering rural families, championing digital literacy, and fostering self-reliance across Bikaner district.",
           tag: "Founder",
         },
         {
@@ -114,6 +143,289 @@ export const translations = {
           tag: "Health Specialist",
         },
       ],
+    },
+    ourWork: {
+      badge: "Our Core Programmes",
+      title: "Sustainable Community Interventions in Rural Rajasthan",
+      subtitle: "Rooted in rural self-reliance, our programs address livelihood, health, clean water, and digital inclusion at the grassroots level.",
+      programmes: [
+        {
+          id: "skills",
+          title: "Skill Development & Handloom Revival",
+          tag: "Livelihood & Heritage",
+          stat: "500+ Women Skilled",
+          description: "Reviving traditional Charkha spinning, khadi weaving, and tailoring skills. We provide modern equipment, technical training, and direct market linkage to rural women, converting heritage crafts into sustained monthly household incomes.",
+          points: [
+            "Traditional 8-spindle & solar-assisted Charkha training",
+            "Certified tailoring & garment finishing workshops",
+            "Direct artisan-to-market cooperative linkages",
+            "Financial literacy & self-help group (SHG) formation",
+          ],
+          image: "/images/hero-charkha.jpeg",
+        },
+        {
+          id: "wash",
+          title: "WASH (Water, Sanitation & Hygiene)",
+          tag: "Health & Dignity",
+          stat: "120+ Villages Reached",
+          description: "Ensuring clean drinking water access, school sanitation infrastructure, and preventive hygiene education across remote arid villages in Bikaner and Hanumangarh.",
+          points: [
+            "Rainwater harvesting tank (Tanka) restorations in desert belts",
+            "School handwashing stations and separate sanitation blocks for girls",
+            "Community-led total sanitation (CLTS) hygiene drives",
+            "Water quality testing and water purification awareness",
+          ],
+          image: "/images/sticking.jpeg",
+        },
+        {
+          id: "nutrition",
+          title: "Food Nutrition & Community Health",
+          tag: "Wellness & Child Care",
+          stat: "15,000+ Nutrition Packs",
+          description: "Combating rural malnutrition among expectant mothers and infants through organic kitchen gardens, fortified nutrition kits, and periodic health checkup camps.",
+          points: [
+            "Maternal health & anaemia awareness sessions",
+            "Community Poshan Vatika (organic nutritional gardens)",
+            "Free preventive medical and eye-screening camps",
+            "Nutritional meal support for underprivileged children",
+          ],
+          image: "/images/about.jpeg",
+        },
+        {
+          id: "livelihood",
+          title: "Sustainable Livelihoods & Digital Literacy",
+          tag: "Economic Inclusion",
+          stat: "1,000+ Digitally Trained",
+          description: "Bridging the digital divide for rural youth, small farmers, and artisans by offering computer fundamentals, digital banking literacy, and e-governance access.",
+          points: [
+            "Digital banking (UPI, DBT, micro-ATM) awareness for elderly & farmers",
+            "Basic computer training & internet skills for rural youth",
+            "Govt. scheme enrollment facilitation (e-Shram, PM-Kisan)",
+            "Sustainable agro-forestry and eco-friendly organic farming drives",
+          ],
+          image: "/images/old.jpeg",
+        },
+      ],
+      impactBanner: {
+        title: "Interested in partnering with us for CSR projects?",
+        desc: "We co-create measurable, high-impact CSR interventions aligned with Schedule VII of the Companies Act, 2013.",
+        cta: "Explore CSR Partnerships",
+      },
+    },
+    whereWeWork: {
+      badge: "Geographic Footprint",
+      title: "Active Across 7 Districts of Rajasthan",
+      subtitle: "From our registered headquarters in Kolasar Mandi, Bikaner to branch operations in Hanumangarh, our grassroots teams serve remote desert and rural communities.",
+      hqCard: {
+        title: "Registered Headquarters",
+        location: "Kolasar Mandi, Bikaner, Rajasthan",
+        desc: "Central coordination hub, artisan production center, and community training hall.",
+      },
+      branchCard: {
+        title: "Field Branch Office",
+        location: "Hanumangarh, Rajasthan",
+        desc: "Dedicated center for WASH operations, youth digital training, and agricultural outreach.",
+      },
+      districts: [
+        {
+          name: "Bikaner",
+          focus: "Handloom Revival, Charkha Units & SHG Leadership",
+          villages: "45+ Villages",
+          status: "HQ & Core Base",
+        },
+        {
+          name: "Hanumangarh",
+          focus: "WASH & School Sanitation Infrastructure",
+          villages: "30+ Villages",
+          status: "Branch Center",
+        },
+        {
+          name: "Sri Ganganagar",
+          focus: "Nutrition Awareness & Farmer Training",
+          villages: "15+ Villages",
+          status: "Active Programs",
+        },
+        {
+          name: "Jaipur",
+          focus: "Artisan Exhibition Linkages & Institutional CSR",
+          villages: "State Level",
+          status: "Partner Desk",
+        },
+        {
+          name: "Jaisalmer",
+          focus: "Desert Rainwater Harvesting & Rural Solar Energy",
+          villages: "12+ Villages",
+          status: "Field Outposts",
+        },
+        {
+          name: "Jodhpur",
+          focus: "Vocational Craft Marketing & Digital Banking",
+          villages: "10+ Villages",
+          status: "Field Outposts",
+        },
+        {
+          name: "Barmer",
+          focus: "Women Weavers Group & Water Conservation",
+          villages: "10+ Villages",
+          status: "Field Outposts",
+        },
+      ],
+    },
+    getInvolved: {
+      badge: "Join Our Mission",
+      title: "Be a Catalyst for Rural Empowerment",
+      subtitle: "Whether as a donor, on-ground volunteer, or corporate CSR partner, your engagement transforms lives across rural Rajasthan.",
+      avenues: [
+        {
+          title: "Individual Donor",
+          tag: "Tax-Exempt Giving",
+          desc: "Support women artisans with spinning charkhas, fund safe drinking water units, or sponsor youth computer education. 100% of your gift goes toward on-ground implementation.",
+          cta: "Make a Donation",
+          href: "/donate",
+          benefit: "50% Tax Exemption under 80G(5)",
+        },
+        {
+          title: "Grassroots Volunteer",
+          tag: "On-Ground Action",
+          desc: "Contribute your time and skills in teaching digital literacy, organizing health awareness camps, or documenting rural stories across Rajasthan villages.",
+          cta: "Apply as Volunteer",
+          href: "/volunteer-campaigns",
+          benefit: "Field Certificate & Real-World Impact",
+        },
+        {
+          title: "CSR & Institutional Partner",
+          tag: "Corporate Impact",
+          desc: "Collaborate with Jeevan Dhara Sansthan to implement scalable, audited CSR projects aligned with Schedule VII, 12AA, and 80G compliance standards.",
+          cta: "Partner With Us",
+          href: "/contact",
+          benefit: "Audited Utilization & Milestone Reports",
+        },
+      ],
+      volunteerForm: {
+        title: "Register as a Volunteer",
+        subtitle: "Fill out this form and our local district coordinator will connect with you.",
+        name: "Full Name",
+        email: "Email Address",
+        phone: "Phone Number",
+        city: "Current City / District",
+        interest: "Primary Area of Interest",
+        interests: [
+          "Digital Literacy & Youth Training",
+          "WASH & Health Campaigns",
+          "Artisan Photography & Storytelling",
+          "Event Coordination & Logistics",
+        ],
+        message: "Tell us why you want to join",
+        submit: "Submit Application",
+        success: "Thank you! Our volunteer coordinator will reach out shortly.",
+      },
+    },
+    donate: {
+      badge: "Tax-Exempt Contribution",
+      title: "Support Self-Reliance in Rural Rajasthan",
+      subtitle: "Your tax-deductible contribution equips rural women with sustainable handloom skills, provides clean drinking water, and fosters digital literacy.",
+      taxNotice: "All donations are 50% tax-exempt under Section 80G(5) of the Income Tax Act. Official 80G tax receipt issued immediately.",
+      frequency: {
+        oneTime: "One-Time Donation",
+        monthly: "Monthly Support",
+      },
+      presets: [500, 1000, 2500, 5000, 10000],
+      customPlaceholder: "Enter custom amount (₹)",
+      impactPreview: {
+        500: "Provides 1 month of educational supplies for 2 rural students.",
+        1000: "Funds raw wool and yarn for 1 woman weaver for 2 weeks.",
+        2500: "Supplies a full sewing and tailoring kit to a rural woman artisan.",
+        5000: "Restores a community rainwater harvesting tank (Tanka) filter.",
+        10000: "Sponsors a 30-day comprehensive digital literacy workshop for 15 youth.",
+      },
+      form: {
+        heading: "Donor Information (For 80G Tax Receipt)",
+        name: "Full Name (as on PAN card)",
+        email: "Email Address",
+        phone: "Mobile Number",
+        pan: "PAN Number (Optional, required for 80G receipt)",
+        address: "Billing Address (Optional)",
+        payBtn: "Proceed to Secure Pay (₹{amount})",
+        securityNote: "Secured via Razorpay 256-bit encryption. UPI, Cards, NetBanking, and Wallets accepted.",
+      },
+    },
+    transparency: {
+      badge: "Accountability & Governance",
+      title: "Our Commitment to Complete Transparency",
+      subtitle: "Jeevan Dhara Sansthan upholds uncompromising standards of financial integrity, statutory compliance, and transparent reporting.",
+      registrations: [
+        {
+          label: "Society Registration Number",
+          value: "58/1-8-2012 (Registered under Rajasthan Societies Registration Act)",
+        },
+        {
+          label: "Section 12AA Registration",
+          value: "Certified by Income Tax Department, Govt. of India",
+        },
+        {
+          label: "Section 80G(5) Exemption",
+          value: "Valid for 50% tax exemption for individual and corporate donors",
+        },
+        {
+          label: "NITI Aayog NGO Darpan",
+          value: "Registered & Verified on National Portal",
+        },
+      ],
+      fundAllocation: {
+        title: "Fund Utilization Breakdown",
+        subtitle: "How every rupee donated is invested directly into grassroots transformation.",
+        breakdown: [
+          { category: "Program Implementation & Artisan Materials", percentage: 82, color: "#B85042" },
+          { category: "Community Mobilization & Field Operations", percentage: 10, color: "#E7A93B" },
+          { category: "Administration, Audit & Statutory Compliance", percentage: 8, color: "#A7BEA9" },
+        ],
+      },
+      reports: [
+        {
+          title: "Annual Impact & Activities Report 2024-25",
+          type: "PDF Document",
+          size: "2.4 MB",
+        },
+        {
+          title: "Audited Financial Statements FY 2023-24",
+          type: "PDF Document",
+          size: "1.8 MB",
+        },
+        {
+          title: "12AA & 80G Statutory Certificate",
+          type: "PDF Document",
+          size: "850 KB",
+        },
+      ],
+    },
+    contact: {
+      badge: "Get in Touch",
+      title: "We Would Love to Hear From You",
+      subtitle: "Have a question about our work, want to visit our field centers in Bikaner, or explore a CSR partnership? Reach out to our team.",
+      hqTitle: "Registered Head Office",
+      hqAddress: "Village Kolasar Mandi, Tehsil Sridungargarh, District Bikaner, Rajasthan — 334001, India",
+      branchTitle: "Hanumangarh Branch",
+      branchAddress: "Jeevan Dhara Sansthan Field Center, Near Bus Stand, Hanumangarh Junction, Rajasthan — 335512",
+      phone: "+91 94144 86377 / +91 98291 12345",
+      email: "contact@jeevandhara.org / mahaveer@jeevandhara.org",
+      hours: "Monday – Saturday: 9:00 AM – 6:00 PM IST",
+      form: {
+        title: "Send Us an Official Message",
+        name: "Your Name",
+        email: "Your Email",
+        phone: "Phone Number",
+        subject: "Subject / Purpose",
+        subjects: [
+          "General Inquiry",
+          "CSR & Institutional Partnership",
+          "Donation & 80G Receipt Query",
+          "Field Center Visit Request",
+          "Media & Press",
+        ],
+        message: "Your Message",
+        submit: "Send Inquiry",
+        success: "Thank you for reaching out! Our team will respond within 24–48 hours.",
+      },
     },
     trust: {
       est: "Est. 2012",
@@ -145,6 +457,7 @@ export const translations = {
       ourWork: "हमारे कार्य",
       whereWeWork: "हम कहाँ काम करते हैं",
       getInvolved: "शामिल हों",
+      transparency: "पारदर्शिता",
       contact: "संपर्क करें",
       donateNow: "दान करें",
     },
@@ -166,16 +479,16 @@ export const translations = {
       impactCards: {
         donors: {
           title: "प्रसन्न दानदाता",
-          value: "1,500+"
+          value: "1,500+",
         },
         volunteers: {
           title: "सक्रिय स्वयंसेवक",
-          value: "300+"
+          value: "300+",
         },
         villages: {
           title: "पहुँच (गाँव)",
-          value: "120+"
-        }
+          value: "120+",
+        },
       },
       counterCards: [
         {
@@ -192,7 +505,7 @@ export const translations = {
           suffix: "k+",
           label: "प्रतिवर्ष लाभान्वित नागरिक",
           btnText: "यहाँ क्लिक करें",
-          href: "#donate",
+          href: "/donate",
         },
         {
           tagline: "मैं एक कॉर्पोरेट भागीदार हूँ",
@@ -215,6 +528,34 @@ export const translations = {
         livelihood: "🌾 सतत आजीविका",
         handloom: "🧵 पारंपरिक हथकरघा",
       },
+      storyTitle: "हमारी स्थापना और इतिहास",
+      storyP1: "अगस्त 2012 में, महावीर उपाध्याय के नेतृत्व में समर्पित सामाजिक कार्यकर्ताओं का एक छोटा समूह बीकानेर, राजस्थान में एकत्रित हुआ। पारंपरिक हथकरघा शिल्प के ह्रास और ग्रामीण परिवारों के आर्थिक संकट को देखते हुए, उन्होंने एक संकल्प के साथ जीवन धारा संस्थान (पंजीकरण संख्या 58/1-8-2012) की स्थापना की: दान के बजाय स्वावलंबन।",
+      storyP2: "कोलासर मंडी, बीकानेर में एक एकल पारंपरिक चरखा इकाई के साथ शुरू करके, हमने ग्रामीण महिलाओं को कताई और बुनाई का प्रशिक्षण दिया, जिससे हमारी विरासत और आधुनिक आजीविका के बीच एक मजबूत सेतु का निर्माण हुआ। आज, यह पहल कौशल विकास केंद्रों, डिजिटल साक्षरता, जल एवं स्वच्छता (WASH) अभियानों और पोषक कृषि सहायता के रूप में राजस्थान के 7 जिलों में फैल चुकी है।",
+      timelineTitle: "विकास यात्रा के मुख्य पड़ाव",
+      timelineEvents: [
+        {
+          year: "2012",
+          title: "संस्थान की स्थापना व हथकरघा पुनरुद्धार",
+          desc: "बीकानेर में एक चरखा केंद्र की स्थापना, 20 ग्रामीण महिलाओं को सूत कताई और हथकरघा बुनाई का प्रशिक्षण।",
+        },
+        {
+          year: "2016",
+          title: "WASH (जल एवं स्वच्छता) अभियान",
+          desc: "स्कूली बच्चों के लिए स्वच्छता शिक्षा और गांवों में पेयजल जागरूकता अभियान की शुरुआत। हनुमानगढ़ में शाखा स्थापित।",
+        },
+        {
+          year: "2020",
+          title: "डिजिटल साक्षरता और ई-गवर्नेंस",
+          desc: "ग्रामीण क्षेत्रों में डिजिटल बैंकिंग, मोबाइल वित्तीय लेनदेन और सरकारी योजनाओं तक पहुँच के लिए प्रशिक्षण कार्यक्रम।",
+        },
+        {
+          year: "2026",
+          title: "7 जिले और कर-मुक्त (80G) मान्यता",
+          desc: "500 से अधिक महिलाओं को स्वरोजगार, राजस्थान के 7 जिलों तक विस्तार, और 12AA व 80G(5) पंजीकरण पूर्ण।",
+        },
+      ],
+      methodologyTitle: "हमारा संकल्प",
+      methodologyDesc: "सच्चा बदलाव लोगों से शुरू होता है। हम ग्रामीण परिवारों के साथ मिलकर काम करते हैं ताकि वे आत्मनिर्भर और सशक्त बन सकें।",
       metrics: {
         m1Val: "500+",
         m1Title: "महिलाएं स्वरोजगारयुक्त",
@@ -233,7 +574,7 @@ export const translations = {
       leadersSubtitle: "ग्रामीण राजस्थान में सतत सामुदायिक बदलाव को साकार करने वाले समर्पित नेतृत्व से मिलें।",
       leaders: [
         {
-          name: "श्री रामेश्वर लाल",
+          name: "महावीर उपाध्याय",
           role: "संस्थापक एवं अध्यक्ष",
           bio: "15+ से अधिक वर्षों के समर्पित अनुभव के साथ बीकानेर क्षेत्र में ग्रामीण परिवारों के सशक्तिकरण, डिजिटल साक्षरता और स्वावलंबन के सूत्रधार।",
           tag: "संस्थापक",
@@ -251,6 +592,289 @@ export const translations = {
           tag: "स्वास्थ्य विशेषज्ञ",
         },
       ],
+    },
+    ourWork: {
+      badge: "हमारे प्रमुख कार्यक्रम",
+      title: "ग्रामीण राजस्थान में स्थायी सामुदायिक विकास पहल",
+      subtitle: "स्वावलंबन की भावना से प्रेरित होकर, हमारे कार्यक्रम आजीविका, स्वास्थ्य, स्वच्छ पेयजल और डिजिटल साक्षरता पर केंद्रित हैं।",
+      programmes: [
+        {
+          id: "skills",
+          title: "कौशल विकास एवं हथकरघा पुनरुद्धार",
+          tag: "आजीविका एवं विरासत",
+          stat: "500+ महिलाएं प्रशिक्षित",
+          description: "पारंपरिक चरखा कताई, खादी बुनाई और सिलाई कौशल का पुनरुद्धार। हम आधुनिक उपकरण, तकनीकी प्रशिक्षण और सीधा बाजार संपर्क प्रदान करते हैं जिससे ग्रामीण महिलाओं को स्थायी मासिक आय प्राप्त हो सके।",
+          points: [
+            "पारंपरिक 8-तकुआ एवं सौर-संचालित चरखा प्रशिक्षण",
+            "प्रमाणित सिलाई और परिधान निर्माण कार्यशालाएं",
+            "कारीगरों के लिए सीधा बाजार एवं सहकारी संपर्क",
+            "वित्तीय साक्षरता और स्वयं सहायता समूह (SHG) गठन",
+          ],
+          image: "/images/hero-charkha.jpeg",
+        },
+        {
+          id: "wash",
+          title: "WASH (जल, स्वच्छता एवं स्वास्थ्य)",
+          tag: "स्वास्थ्य एवं गरिमा",
+          stat: "120+ गाँव आच्छादित",
+          description: "बीकानेर और हनुमानगढ़ के दूरदराज रेगिस्तानी गांवों में स्वच्छ पेयजल, स्कूली स्वच्छता अवसंरचना और निवारक स्वच्छता शिक्षा सुनिश्चित करना।",
+          points: [
+            "रेगिस्तानी क्षेत्रों में वर्षा जल संचयन टांका पुनरुद्धार",
+            "स्कूलों में बालिकाओं के लिए अलग शौचालय और हाथ धोने की इकाइयां",
+            "समुदाय आधारित समग्र स्वच्छता अभियान",
+            "जल गुणवत्ता परीक्षण और जल शुद्धिकरण जागरूकता",
+          ],
+          image: "/images/sticking.jpeg",
+        },
+        {
+          id: "nutrition",
+          title: "खाद्य पोषण एवं सामुदायिक स्वास्थ्य",
+          tag: "मातृ एवं शिशु पोषण",
+          stat: "15,000+ पोषण किट वितरित",
+          description: "जैविक पोषण वाटिका, पौष्टिक आहार किट और नियमित स्वास्थ्य जांच शिविरों के माध्यम से गर्भवती महिलाओं और शिशुओं में कुपोषण को दूर करना।",
+          points: [
+            "मातृ स्वास्थ्य एवं एनीमिया मुक्ति जागरूकता सत्र",
+            "सामुदायिक पोषण वाटिका (सब्जी व फल पौधरोपण)",
+            "निःशुल्क नेत्र जांच एवं स्वास्थ्य परामर्श शिविर",
+            "वंचित बच्चों के लिए पौष्टिक आहार सहयोग",
+          ],
+          image: "/images/about.jpeg",
+        },
+        {
+          id: "livelihood",
+          title: "सतत आजीविका एवं डिजिटल साक्षरता",
+          tag: "आर्थिक समावेशन",
+          stat: "1,000+ डिजिटल साक्षर",
+          description: "ग्रामीण युवाओं, छोटे किसानों और कारीगरों को कंप्यूटर ज्ञान, डिजिटल बैंकिंग और सरकारी ई-गवर्नेंस सेवाओं से जोड़कर डिजिटल खाई को पाटना।",
+          points: [
+            "किसानों और बुजुर्गों के लिए डिजिटल बैंकिंग (UPI, DBT) प्रशिक्षण",
+            "ग्रामीण युवाओं के लिए बुनियादी कंप्यूटर व इंटरनेट ज्ञान",
+            "सरकारी कल्याणकारी योजनाओं (ई-श्रम, पीएम-किसान) का पंजीकरण",
+            "पर्यावरण अनुकूल प्राकृतिक खेती एवं वृक्षारोपण अभियान",
+          ],
+          image: "/images/old.jpeg",
+        },
+      ],
+      impactBanner: {
+        title: "क्या आप CSR साझेदारी के लिए इच्छुक हैं?",
+        desc: "हम कंपनी अधिनियम 2013 की अनुसूची VII के अनुरूप परिणामोन्मुखी, पारदर्शी CSR परियोजनाओं का संचालन करते हैं।",
+        cta: "CSR सहयोग प्रस्ताव देखें",
+      },
+    },
+    whereWeWork: {
+      badge: "भौगोलिक कार्यक्षेत्र",
+      title: "राजस्थान के 7 जिलों में निरंतर सक्रिय",
+      subtitle: "कोलासर मंडी, बीकानेर स्थित पंजीकृत मुख्यालय से लेकर हनुमानगढ़ शाखा तक, हमारी टीमें सुदूर ग्रामीण क्षेत्रों में कार्यरत हैं।",
+      hqCard: {
+        title: "पंजीकृत मुख्यालय",
+        location: "कोलासर मंडी, बीकानेर, राजस्थान",
+        desc: "केंद्रीय समन्वय केंद्र, हथकरघा उत्पादन एवं महिला प्रशिक्षण सभागार।",
+      },
+      branchCard: {
+        title: "शाखा कार्यालय",
+        location: "हनुमानगढ़, राजस्थान",
+        desc: "WASH स्वच्छता परियोजना, युवा डिजिटल केंद्र एवं किसान संपर्क कार्यालय।",
+      },
+      districts: [
+        {
+          name: "बीकानेर",
+          focus: "हथकरघा पुनरुद्धार, चरखा केंद्र एवं महिला स्वयं सहायता समूह",
+          villages: "45+ गाँव",
+          status: "मुख्यालय एवं मुख्य आधार",
+        },
+        {
+          name: "हनुमानगढ़",
+          focus: "WASH, स्वच्छता एवं स्कूली जल अवसंरचना",
+          villages: "30+ गाँव",
+          status: "शाखा केंद्र",
+        },
+        {
+          name: "श्रीगंगानगर",
+          focus: "पोषण अभियान एवं किसान जैविक प्रशिक्षण",
+          villages: "15+ गाँव",
+          status: "सक्रिय कार्यक्रम",
+        },
+        {
+          name: "जयपुर",
+          focus: "हथकरघा प्रदर्शनी संपर्क एवं संस्थागत CSR संबंध",
+          villages: "राज्य स्तर",
+          status: "संपर्क केंद्र",
+        },
+        {
+          name: "जैसलमेर",
+          focus: "वर्षा जल संचयन (टांका) एवं ग्रामीण ऊर्जा",
+          villages: "12+ गाँव",
+          status: "क्षेत्रीय चौकियां",
+        },
+        {
+          name: "जोधपुर",
+          focus: "हस्तशिल्प विपणन एवं डिजिटल वित्तीय साक्षरता",
+          villages: "10+ गाँव",
+          status: "क्षेत्रीय चौकियां",
+        },
+        {
+          name: "बाड़मेर",
+          focus: "महिला बुनकर समूह एवं जल संरक्षण",
+          villages: "10+ गाँव",
+          status: "क्षेत्रीय चौकियां",
+        },
+      ],
+    },
+    getInvolved: {
+      badge: "हमसे जुड़ें",
+      title: "ग्रामीण सशक्तिकरण के उत्प्रेरक बनें",
+      subtitle: "चाहे दानदाता के रूप में, स्वयंसेवक के रूप में, या कॉर्पोरेट CSR भागीदार के रूप में—आपका सहयोग जीवन बदलता है।",
+      avenues: [
+        {
+          title: "व्यक्तिगत दानदाता",
+          tag: "कर-मुक्त दान (80G)",
+          desc: "ग्रामीण महिलाओं को चरखा देकर आत्मनिर्भर बनाएं, स्वच्छ पेयजल यूनिट स्थापित करें या युवाओं की डिजिटल शिक्षा को प्रायोजित करें।",
+          cta: "सहयोग राशि दान करें",
+          href: "/donate",
+          benefit: "आयकर की धारा 80G(5) के तहत 50% कर छूट",
+        },
+        {
+          title: "जमीनी स्वयंसेवक",
+          tag: "मैदानी सेवा",
+          desc: "डिजिटल साक्षरता सिखाने, स्वास्थ्य शिविर आयोजित करने या ग्रामीण कहानियों के दस्तावेजीकरण में अपना समय और कौशल समर्पित करें।",
+          cta: "स्वयंसेवक हेतु आवेदन करें",
+          href: "/volunteer-campaigns",
+          benefit: "अनुभव प्रमाण पत्र एवं वास्तविक संतुष्टि",
+        },
+        {
+          title: "CSR एवं संस्थागत भागीदार",
+          tag: "कॉर्पोरेट प्रभाव",
+          desc: "कंपनी अधिनियम की अनुसूची VII एवं 12AA/80G मानकों के तहत उच्च-प्रभाव वाली सीएसआर परियोजनाओं को लागू करने हेतु सहयोग करें।",
+          cta: "साझेदारी हेतु संपर्क करें",
+          href: "/contact",
+          benefit: "पूर्ण ऑडिट रिपोर्ट एवं प्रभाव मूल्यांकन",
+        },
+      ],
+      volunteerForm: {
+        title: "स्वयंसेवक पंजीकरण फॉर्म",
+        subtitle: "यह फॉर्म भरें और हमारे स्थानीय जिला समन्वयक शीघ्र आपसे संपर्क करेंगे।",
+        name: "पूरा नाम",
+        email: "ईमेल पता",
+        phone: "मोबाइल नंबर",
+        city: "वर्तमान शहर / जिला",
+        interest: "आपकी रुचि का मुख्य क्षेत्र",
+        interests: [
+          "डिजिटल साक्षरता एवं युवा प्रशिक्षण",
+          "WASH एवं स्वास्थ्य जागरूकता अभियान",
+          "फोटोग्राफी, वीडियोग्राफी एवं कहानी लेखन",
+          "इवेंट प्रबंधन एवं जमीनी समन्वय",
+        ],
+        message: "आप हमसे क्यों जुड़ना चाहते हैं?",
+        submit: "आवेदन जमा करें",
+        success: "धन्यवाद! हमारे स्वयंसेवक समन्वयक शीघ्र ही आपसे संपर्क करेंगे।",
+      },
+    },
+    donate: {
+      badge: "कर-मुक्त योगदान",
+      title: "ग्रामीण राजस्थान के स्वावलंबन का समर्थन करें",
+      subtitle: "आपका योगदान ग्रामीण महिलाओं को हथकरघा कौशल, स्वच्छ पेयजल और युवाओं को डिजिटल साक्षरता प्रदान करता है।",
+      taxNotice: "सभी दान आयकर अधिनियम की धारा 80G(5) के तहत 50% कर छूट हेतु मान्य हैं। आधिकारिक 80G रसीद तुरंत जारी की जाती है।",
+      frequency: {
+        oneTime: "एकमुश्त दान",
+        monthly: "मासिक सहयोग",
+      },
+      presets: [500, 1000, 2500, 5000, 10000],
+      customPlaceholder: "अन्य राशि दर्ज करें (₹)",
+      impactPreview: {
+        500: "2 ग्रामीण बच्चों के लिए 1 माह की पठन सामग्री प्रदान करता है।",
+        1000: "1 महिला बुनकर के लिए 2 सप्ताह का कच्चा ऊन व सूत उपलब्ध कराता है।",
+        2500: "एक ग्रामीण महिला को संपूर्ण सिलाई एवं सिलाई किट प्रदान करता है।",
+        5000: "सामुदायिक वर्षा जल टांका फिल्टर के पुनरुद्धार में सहायक है।",
+        10000: "15 युवाओं के लिए 30 दिवसीय डिजिटल साक्षरता कार्यशाला प्रायोजित करता है।",
+      },
+      form: {
+        heading: "दानदाता विवरण (80G कर रसीद हेतु)",
+        name: "पूरा नाम (पैन कार्ड के अनुसार)",
+        email: "ईमेल पता",
+        phone: "मोबाइल नंबर",
+        pan: "पैन नंबर (80G रसीद हेतु वैकल्पिक)",
+        address: "पता (वैकल्पिक)",
+        payBtn: "सुरक्षित भुगतान करें (₹{amount})",
+        securityNote: "Razorpay 256-बिट सुरक्षित एन्क्रिप्शन। UPI, कार्ड, नेटबैंकिंग एवं वॉलेट मान्य।",
+      },
+    },
+    transparency: {
+      badge: "जवाबदेही एवं सुशासन",
+      title: "पूर्ण वित्तीय और वैधानिक पारदर्शिता",
+      subtitle: "जीवन धारा संस्थान वित्तीय ईमानदारी, वैधानिक अनुपालन और सार्वजनिक रिपोर्टिंग के उच्चतम मानकों का पालन करता है।",
+      registrations: [
+        {
+          label: "संस्था पंजीकरण संख्या",
+          value: "58/1-8-2012 (राजस्थान संस्था पंजीकरण अधिनियम के अंतर्गत पंजीकृत)",
+        },
+        {
+          label: "धारा 12AA पंजीकरण",
+          value: "आयकर विभाग, भारत सरकार द्वारा प्रमाणित",
+        },
+        {
+          label: "धारा 80G(5) कर छूट",
+          value: "व्यक्तिगत एवं कॉर्पोरेट दानदाताओं हेतु 50% कर छूट मान्य",
+        },
+        {
+          label: "नीति आयोग NGO दर्पण",
+          value: "राष्ट्रीय पोर्टल पर पंजीकृत एवं सत्यापित",
+        },
+      ],
+      fundAllocation: {
+        title: "निधि उपयोग का विवरण",
+        subtitle: "दान की गई प्रत्येक पाई सीधे जमीनी विकास और आजीविका में निवेश की जाती है।",
+        breakdown: [
+          { category: "कार्यक्रम क्रियान्वयन एवं सामग्री", percentage: 82, color: "#B85042" },
+          { category: "सामुदायिक लामबंदी एवं क्षेत्रीय संचालन", percentage: 10, color: "#E7A93B" },
+          { category: "प्रशासन, ऑडिट एवं वैधानिक अनुपालन", percentage: 8, color: "#A7BEA9" },
+        ],
+      },
+      reports: [
+        {
+          title: "वार्षिक प्रभाव एवं गतिविधि रिपोर्ट 2024-25",
+          type: "पीडीएफ दस्तावेज़",
+          size: "2.4 MB",
+        },
+        {
+          title: "ऑडिटेड वित्तीय विवरण वित्त वर्ष 2023-24",
+          type: "पीडीएफ दस्तावेज़",
+          size: "1.8 MB",
+        },
+        {
+          title: "12AA एवं 80G वैधानिक प्रमाण पत्र",
+          type: "पीडीएफ दस्तावेज़",
+          size: "850 KB",
+        },
+      ],
+    },
+    contact: {
+      badge: "संपर्क सूत्र",
+      title: "हम आपसे जुड़ने के लिए सदैव तत्पर हैं",
+      subtitle: "हमारे कार्यों की जानकारी, बीकानेर केंद्र भ्रमण या CSR साझेदारी हेतु हमसे सीधे संपर्क करें।",
+      hqTitle: "पंजीकृत मुख्य कार्यालय",
+      hqAddress: "ग्राम कोलासर मंडी, तहसील श्रीडूंगरगढ़, जिला बीकानेर, राजस्थान — 334001, भारत",
+      branchTitle: "हनुमानगढ़ शाखा",
+      branchAddress: "जीवन धारा संस्थान क्षेत्रीय केंद्र, बस स्टैंड के पास, हनुमानगढ़ जंक्शन, राजस्थान — 335512",
+      phone: "+91 94144 86377 / +91 98291 12345",
+      email: "contact@jeevandhara.org / mahaveer@jeevandhara.org",
+      hours: "सोमवार – शनिवार: प्रातः 9:00 से सायं 6:00 बजे तक",
+      form: {
+        title: "आधिकारिक संदेश भेजें",
+        name: "आपका नाम",
+        email: "आपका ईमेल",
+        phone: "मोबाइल नंबर",
+        subject: "संदेश का विषय",
+        subjects: [
+          "सामान्य जानकारी",
+          "CSR एवं संस्थागत साझेदारी",
+          "दान एवं 80G रसीद संबंधी प्रश्न",
+          "क्षेत्रीय केंद्र भ्रमण अनुरोध",
+          "मीडिया एवं प्रेस",
+        ],
+        message: "आपका संदेश",
+        submit: "संदेश प्रेषित करें",
+        success: "संपर्क करने के लिए धन्यवाद! हमारी टीम 24–48 घंटों में उत्तर देगी।",
+      },
     },
     trust: {
       est: "स्थापना 2012",

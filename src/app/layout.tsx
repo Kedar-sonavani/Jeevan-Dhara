@@ -48,9 +48,45 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    name: "Jeevan Dhara Sansthan",
+    url: "https://jeevandhara.org",
+    logo: "https://jeevandhara.org/images/logo.png",
+    foundingDate: "2012-08-01",
+    founders: [
+      {
+        "@type": "Person",
+        name: "Mahaveer Upadhyay",
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Kolasar Mandi, Tehsil Sri Dungargarh",
+      addressLocality: "Bikaner",
+      addressRegion: "Rajasthan",
+      postalCode: "334001",
+      addressCountry: "IN",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-94144-86377",
+      contactType: "Customer Support",
+      areaServed: "IN",
+      availableLanguage: ["English", "Hindi"],
+    },
+    nonprofitStatus: "Nonprofit501c3",
+    taxID: "12AA & 80G(5) Certified",
+  };
+
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
-      <body className="min-h-screen flex flex-col bg-cream text-dark antialiased">
+    <html lang="en" suppressHydrationWarning className={`${playfair.variable} ${inter.variable}`}>
+      <body suppressHydrationWarning className="min-h-screen flex flex-col bg-cream text-dark antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
       </body>
     </html>

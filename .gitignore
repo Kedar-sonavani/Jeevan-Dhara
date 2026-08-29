@@ -32,3 +32,8 @@ Thumbs.db
 *.pem
 .vscode/
 .idea/
+
+# Ignore SQL files and Agent files
+*.sql
+AGENTS.md
+.agents/

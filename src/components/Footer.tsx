@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Heart, MapPin, Phone, Mail, ShieldCheck, ExternalLink, ArrowUpRight } from "lucide-react";
 import { translations } from "@/i18n/translations";
 import { Language } from "@/types";
@@ -23,8 +24,14 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
           {/* Col 1: Organization Bio (5 cols) */}
           <div className="lg:col-span-5 space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-terracotta flex items-center justify-center text-white font-serif text-xl font-bold shadow-md">
-                JD
+              <div className="relative w-12 h-12 rounded-full overflow-hidden border border-white/20 shadow-md bg-white shrink-0">
+                <Image
+                  src="/images/Logo.jpeg"
+                  alt="Jeevan Dhara Sansthan Logo"
+                  fill
+                  sizes="48px"
+                  className="object-cover"
+                />
               </div>
               <div>
                 <span className="font-serif font-bold text-xl text-white tracking-tight block leading-none">
@@ -76,6 +83,11 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
                 </Link>
               </li>
               <li>
+                <Link href="/transparency" className="hover:text-amber transition-colors flex items-center gap-1.5">
+                  <span>{isHi ? "पारदर्शिता एवं ऑडिट" : "Transparency & Governance"}</span>
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-amber transition-colors flex items-center gap-1.5">
                   <span>{isHi ? "संपर्क करें" : "Contact & CSR Proposals"}</span>
                 </Link>
@@ -112,24 +124,37 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
 
             {/* Quick Donate CTA in Footer */}
             <div className="pt-2">
-              <a
-                href="#donate"
+              <Link
+                href="/donate"
                 className="w-full py-2.5 px-4 bg-amber hover:bg-amber-400 text-dark font-bold text-xs uppercase tracking-wider rounded-xl shadow-xs transition-all flex items-center justify-center gap-2"
               >
                 <Heart className="w-3.5 h-3.5 fill-dark" />
                 <span>{isHi ? "दान करें" : "Donate Now"}</span>
-              </a>
+              </Link>
             </div>
           </div>
 
         </div>
 
-        {/* Bottom Bar: Copyright */}
-        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left text-xs text-cream/60">
-          <p>
-            © 2026 Jeevan Dhara Sansthan. {isHi ? "सर्वाधिकार सुरक्षित।" : "All rights reserved."}
-          </p>
+        {/* Bottom Bar: Copyright & Credentials */}
+        <div className="pt-8 border-t border-white/10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left text-xs text-cream/60">
+          <div className="space-y-1">
+            <p>
+              © 2026 Jeevan Dhara Sansthan. {isHi ? "सर्वाधिकार सुरक्षित।" : "All rights reserved."}
+            </p>
+            <p className="text-[11px] text-cream/40">
+              {isHi
+                ? "पंजीकरण संख्या: 58/1-8-2012 | आयकर अधिनियम की धारा 12AA एवं 80G(5) के तहत कर मुक्त"
+                : "Registration No: 58/1-8-2012 | Tax Exempt under Section 12AA & 80G(5) of the Income Tax Act"}
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-[11px]">
+            <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-amber-300 font-serif">
+              {isHi ? "12AA प्रमाणित" : "12AA Certified"}
+            </span>
+            <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-amber-300 font-serif">
+              {isHi ? "80G(5) कर छूट" : "80G(5) Tax Exempt"}
+            </span>
             <Link href="/contact" className="hover:text-amber transition-colors">
               {isHi ? "गोपनीयता नीति" : "Privacy Policy"}
             </Link>
