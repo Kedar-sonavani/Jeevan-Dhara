@@ -56,7 +56,7 @@ export const INITIAL_SETTINGS: SiteSettings = {
   impactStats: {
     womenSkilled: "500+",
     villagesReached: "120+",
-    activeVolunteers: "300+",
+    activeVolunteers: "30+",
     donorsCount: "1,500+",
     biogasPlants: "45+",
   },

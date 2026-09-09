@@ -1100,23 +1100,23 @@ export default function CsrPartnershipsPage() {
                   </p>
 
                   <a
-                    href="mailto:contact@jeevandhara.org"
+                    href="mailto:jeevandhara370@gmail.com"
                     className="block mt-5 text-sm font-semibold text-terracotta hover:underline"
                   >
-                    contact@jeevandhara.org
+                    jeevandhara370@gmail.com
                   </a>
 
                   <a
-                    href="tel:+919414486377"
+                    href="tel:+917742221668"
                     className="block mt-2 text-sm font-semibold text-dark/70"
                   >
-                    +91 94144 86377
+                    +91 77422 21668
                   </a>
 
                 </div>
 
                 <a
-                  href="mailto:contact@jeevandhara.org?subject=CSR%20Partnership%20Inquiry"
+                  href="mailto:jeevandhara370@gmail.com?subject=CSR%20Partnership%20Inquiry"
                   className="mt-7 block text-center py-3 bg-dark text-white rounded-full text-xs font-bold hover:bg-terracotta transition-colors"
                 >
                   {isHi ? "ईमेल भेजें" : "Send Email"}
@@ -1156,7 +1156,7 @@ export default function CsrPartnershipsPage() {
                 </div>
 
                 <a
-                  href="https://wa.me/919414486377?text=Hello%20Jeevan%20Dhara%20Sansthan,%20We%20are%20exploring%20a%20CSR%20collaboration."
+                  href="https://wa.me/917742221668?text=Hello%20Jeevan%20Dhara%20Sansthan,%20We%20are%20exploring%20a%20CSR%20collaboration."
                   target="_blank"
                   rel="noreferrer"
                   className="mt-7 flex items-center justify-center gap-2 py-3 bg-green-600 text-white rounded-full text-xs font-bold hover:bg-green-700 transition-colors"

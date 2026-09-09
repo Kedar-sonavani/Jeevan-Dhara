@@ -113,12 +113,28 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
 
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-amber shrink-0" />
-                <span>+91 94144 86377 / +91 98291 12345</span>
+                <a href="tel:+917742221668" className="hover:text-amber transition-colors">
+                  +91 77422 21668
+                </a>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-amber shrink-0" />
-                <span>contact@jeevandhara.org</span>
+                <a href="mailto:jeevandhara370@gmail.com" className="hover:text-amber transition-colors">
+                  jeevandhara370@gmail.com
+                </a>
+              </div>
+
+              <div className="pt-1 flex items-center gap-3">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 hover:bg-amber hover:text-dark text-[11px] font-medium text-cream/90 transition-colors"
+                >
+                  <span>Instagram</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
               </div>
             </div>
 

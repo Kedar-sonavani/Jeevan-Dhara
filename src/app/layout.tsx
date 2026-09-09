@@ -60,10 +60,15 @@ export default function RootLayout({
         "@type": "Person",
         name: "Mahaveer Upadhyay",
       },
+      {
+        "@type": "Person",
+        name: "Jhanvi Joshi",
+        jobTitle: "President",
+      },
     ],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Kolasar Mandi, Tehsil Sri Dungargarh",
+      streetAddress: "Village Kolasar, Tehsil Sri Dungargarh",
       addressLocality: "Bikaner",
       addressRegion: "Rajasthan",
       postalCode: "334001",
@@ -71,7 +76,7 @@ export default function RootLayout({
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+91-94144-86377",
+      telephone: "+91-77422-21668",
       contactType: "Customer Support",
       areaServed: "IN",
       availableLanguage: ["English", "Hindi"],

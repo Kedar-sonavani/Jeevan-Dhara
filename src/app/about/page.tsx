@@ -134,11 +134,11 @@ export default function AboutPage() {
                   {/* Image wrapper */}
                   <div className="relative h-80 sm:h-96 w-full overflow-hidden rounded-2xl bg-[#E8E0D2] mb-6">
                     <Image
-                      src="/images/about.jpeg"
+                      src={leader.image || "/images/about.jpeg"}
                       alt={leader.name}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                     />
                     {/* Tag badge */}
                     <div className="absolute top-4 left-4">

@@ -232,7 +232,7 @@ export default function ContactPage() {
                       </button>
 
                       <a
-                        href="https://wa.me/919414486377?text=Hello%20Jeevan%20Dhara%20Sansthan,%20I%20would%20like%20to%20inquire%20about%20your%20initiatives."
+                        href="https://wa.me/917742221668?text=Hello%20Jeevan%20Dhara%20Sansthan,%20I%20would%20like%20to%20inquire%20about%20your%20initiatives."
                         target="_blank"
                         rel="noreferrer"
                         className="py-4 px-6 bg-green-600 hover:bg-green-700 text-white font-bold text-sm uppercase tracking-wider rounded-xl shadow-md transition flex items-center justify-center gap-2"

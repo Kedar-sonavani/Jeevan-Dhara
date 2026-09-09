@@ -146,6 +146,14 @@ export interface Program {
   beneficiaries: string;
 }
 
+export interface Leader {
+  name: string;
+  role: string;
+  bio: string;
+  tag: string;
+  image?: string;
+}
+
 export interface FundAllocationItem {
   id: string;
   categoryEn: string;

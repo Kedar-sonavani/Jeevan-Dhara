@@ -101,7 +101,7 @@ export default function WhereWeWorkPage() {
           </div>
         </section>
 
-        {/* 7 Districts Presence Grid */}
+        {/* 8 Districts Presence Grid */}
         <section className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-3 mb-12">
             <span className="text-xs font-bold text-terracotta uppercase tracking-wider">

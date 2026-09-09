@@ -238,11 +238,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang }) => {
                       {/* Vertical Full-Size Photo */}
                       <div className="relative w-full h-105 sm:h-115 bg-sage-100 overflow-hidden">
                         <Image
-                          src="/images/hero-charkha.jpeg"
+                          src={leaders[idx].image || "/images/about.jpeg"}
                           alt={leaders[idx].name}
                           fill
                           sizes="(max-width: 768px) 100vw, 380px"
-                          className="object-cover object-center transition-all duration-700"
+                          className="object-cover object-top transition-all duration-700"
                         />
 
                         {/* Dark Gradient Overlay */}

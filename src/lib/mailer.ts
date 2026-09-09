@@ -39,7 +39,7 @@ export async function sendReceiptEmail(params: SendReceiptEmailParams) {
           <p style="font-size: 12px; color: #576F5A; margin: 0;">
             <strong>Jeevan Dhara Sansthan</strong><br />
             Registration No: 58/1-8-2012 | 12AA & 80G(5) Certified<br />
-            Kolasar Mandi, Bikaner, Rajasthan 334001
+            Village Kolasar, Bikaner, Rajasthan 334001
           </p>
         </div>
       `,
